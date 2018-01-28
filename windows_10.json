@@ -39,10 +39,9 @@
   ],
   "provisioners": [
     {
-      "scripts": [
-        "./scripts/disable-winrm.ps1"
-      ],
-      "type": "powershell"
+      "type": "windows-shell",
+      "inline": ["mkdir c:\\windows_shell_test\\"]
+
     }
   ],
   "variables": {
