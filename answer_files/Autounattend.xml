@@ -125,8 +125,8 @@
             </AutoLogon>
             <FirstLogonCommands>
                 <SynchronousCommand wcm:action="add">
-                    <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File a:\enable-winrm.ps1</CommandLine>
-                    <Description>Enable WinRM</Description>
+                    <CommandLine>cmd.exe /c C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File a:\prepare_winrm.bat</CommandLine>
+                    <Description>Prepare WinRM</Description>
                     <Order>99</Order>
                 </SynchronousCommand>
             </FirstLogonCommands>
